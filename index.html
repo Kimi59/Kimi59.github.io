@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="#" />
+    <title>Space Shooter</title>
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            border: 5px solid rgb(63, 63, 63);
+            border-radius: 10px;
+        }
+
+        div.absolute {
+            position: absolute;
+            color:red;
+            bottom: 50px;
+            background:darkgrey;
+            opacity:0.5;
+        }
+
+        html {
+            background-color: grey;
+            color: white;
+        }
+
+
+    </style>
+
+<body>
+    <div class="absolute">
+        Controls:
+        <br>
+         WASD to move
+        </br>
+        Click/Space to shoot
+    </div>
+    <canvas width="900" height="600" id="game"></canvas>
+    <script src="game.js"></script>
+    <script src="var.js"></script>
+    <script src="bullet.js"></script>
+    <script src="enemy.js"></script>
+    <script src="enemybullet.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</head>
+
+</html>
