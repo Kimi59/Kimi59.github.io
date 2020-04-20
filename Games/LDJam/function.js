@@ -140,6 +140,6 @@ function enemyPlayer() {
         }
     }
 }
-camera.zoom += 2;
+//camera.zoom += 2;
 
 setup(60);
