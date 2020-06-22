@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html>
+<title>KimDev</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <head>
-    <title>KimDev</title>
     <style>
-        html {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #262626 ;
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 5px;
+            background-color: rgb(56, 56, 56);
+        }
+
+        .div {
+            letter-spacing: 4px;
+            position: absolute;
+            right: 150px;
+        }
+
+        .center {
             color: white;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        .topnav {
-            background-color: #333333;
-            overflow: hidden;
-            font-size: 25px;
-            width: 100%;
-        }
-
-        .topnav link {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px, 16px;
-            text-decoration: none;
-            font-size: 30px;
-        }
-
-        .topnav n:hover {
-            background-color: rgba(232, 232, 232, 0.3);
-        }
-
-        .topnav n:active {
-            background-color: lightskyblue;
-            color: black;
+            font-size:30px; 
+            position: absolute;
+            top: 50%;left: 50%;
+            font-weight: bold;
         }
     </style>
-
 </head>
 
 <body>
-    <div class="topnav">
-        <n class="active";><a href="index.html">Home</a></n>
-        <n><a href="Games.html">Games</n></a>
+    <div class="w3-bar w3-white w3-padding w3-card">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+
+        <div class="w3-right w3-hide-small">
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="games.html" class="w3-bar-item w3-button">Games</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+
+        </div>
+    </div>
+    <div class="center">
+        Welcome!
     </div>
 
-    <canvas id="canvas;" style="position:relative; top:10; left:0;" width="1000;" height="1000;"></canvas>
 
 </body>
+
+
 
 </html>
