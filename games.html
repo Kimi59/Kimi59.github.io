@@ -17,6 +17,43 @@
             position: absolute;
             right: 150px;
         }
+
+        para{
+            margin-top: 1cm;
+            display:none; 
+        }
+        .description {
+            background-color: #bf631f;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            padding: 12px 28px;
+        }
+
+        .playnow {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            margin-top: 1cm;
+            padding: 16px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #924c1a;
+        }
+
+        .content {
+            padding: 0 16px;
+            display: none;
+            overflow: hidden;
+            background-color: rgb(203, 198, 136, 0.2);
+        }
     </style>
 </head>
 
@@ -28,11 +65,62 @@
             <a href="about.html" class="w3-bar-item w3-button">About</a>
             <a href="games.html" class="w3-bar-item w3-button">Games</a>
             <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
-
         </div>
     </div>
+
+    <p class ="para">l</p>
+    <button type="button" class="description">Space Shooter</button>
+    <div class="content">
+        <p>A basic top-down space shooter game</p>
+        <p>Preview:</p>
+        <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
+        <a href="Games/SpaceShooter/index.html">
+            <button type="game1" class="playnow">Play now!</button>
+        </a>
+    </div>
+    </div>
+
+    <button type="button" class="description">LD Game Jam</button>
+    <div class="content">
+        <p>LD Game Jam 2020</p>
+        <p>Preview:</p>
+        <img src="Games/photo/LDJam.png" alt=" alt ="LD Game Jam" width="300" height="200"></img>
+        <a href="Games/LDJam/index.html">
+            <button type="game1" class="playnow">Play now!</button>
+        </a>
+    </div>
+    </div>
+
+    <script>
+        var desc = document.getElementsByClassName("description");
+        var i;
+
+        for (i = 0; i < desc.length; i++) {
+            desc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+    </script>
 </body>
 
-
+<!---  add this when you want to make new games on the website 
+    <button type="button" class="description">Space Shooter</button>
+    <div class="content">
+        <p>A basic top-down space shooter game</p>
+        <p>Preview:</p>
+        <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
+        <a href ="Games/SpaceShooter/index.html">
+        <button type="game1" class="playnow">Play now!</button>
+        </a>
+    </div>
+    </div>
+--->
 
 </html>
