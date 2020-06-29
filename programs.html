@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>KimDev</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            background-color: rgb(56, 56, 56);
+        }
+
+        .div {
+            letter-spacing: 2px;
+            position: absolute;
+            right: 150px;
+        }
+
+        .description {
+            background-color: #bf631f;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            padding: 12px 28px;
+        }
+
+        .move {
+            margin-top: 1cm;
+        }
+
+        .paragraph {
+            color: #b7b9a1
+        }
+
+        .playnow {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            margin-top: 1cm;
+            padding: 16px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #924c1a;
+        }
+
+        .content {
+            padding: 0 16px;
+            display: none;
+            overflow: hidden;
+            background-color: rgb(203, 198, 136, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-bar w3-white w3-padding w3-card">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+
+        <div class="w3-right w3-hide-small">
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="programs.html" class="w3-bar-item w3-button">Programs</a>
+            <a href="game.html" class="w3-bar-item w3-button">Games</a>
+            <a href="novels.html" class="w3-bar-item w3-button">Novel</a>
+            <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+        </div>
+    </div>
+
+    <p class="paragraph">These are a compiliation of the notable Java programs worked throughout the grade 11 & grade 12
+        year</p>
+    <div class="move">
+        <button type="button" class="description">City Picker</button>
+        <div class="content">
+            <p class="paragraph">Pick a city with a selection of cities</p>
+            <p class="paragraph">Instructions: Download the file and run the jar by clicking on it</p>
+            <a href="javaschool/City.jar">
+                <button type="game1" class="playnow">Download now!</button>
+            </a>
+        </div>
+    </div>
+
+    <button type="button" class="description">Double A Number</button>
+    <div class="content">
+        <p class="paragraph">Double a number that is inputted</p>
+        <p class="paragraph">Instructions: Download the file and run the jar by clicking on it</p>
+        <a href="javaschool/DoubleNumber.jar">
+            <button type="game1" class="playnow">Download now!</button>
+        </a>
+    </div>
+    </div>
+
+    <button type="button" class="description">Guess A Number</button>
+    <div class="content">
+        <p class="paragraph">You will have to guess a random number </p>
+        <p class="paragraph">Instructions: Download the file and run the jar by clicking on it</p>
+        <a href="javaschool/GuessANumber.jar">
+            <button type="game1" class="playnow">Download now!</button>
+        </a>
+    </div>
+    </div>
+
+    <button type="button" class="description">Lotto</button>
+    <div class="content">
+        <p class="paragraph">Input 6 numbers into the Lotto game, and if your numbers match with the winning numbers,
+            you will gain money </p>
+        <p class="paragraph">Instructions: Download the file and open something that supports a .java file (I reccomend
+            Eclipse), open the file then press run</p>
+        <a href="javaschool/Lotto.java">
+            <button type="game1" class="playnow">Download now!</button>
+        </a>
+    </div>
+    </div>
+
+
+    <button type="button" class="description">Intrest Calculator</button>
+    <div class="content">
+        <p class="paragraph"> Calculates your intrest over a span of 10 years</p>
+        <p class="paragraph">Instructions: Download the file and open something that supports a .java file (I reccomend
+            Eclipse), open the file then press run</p>
+        <a href="javaschool/CompoundInt.java">
+            <button type="game1" class="playnow">Download now!</button>
+        </a>
+    </div>
+    </div>
+    <!---Add grade 11 java programs here, and learn how to download them or put them in a jar format-->
+
+
+
+    <script>
+        var desc = document.getElementsByClassName("description");
+        var i;
+
+        for (i = 0; i < desc.length; i++) {
+            desc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+</body>
+
+<!---  add this when you want to make new games on the website 
+    <button type="button" class="description">Space Shooter</button>
+    <div class="content">
+        <p>A basic top-down space shooter game</p>
+        <p>Preview:</p>
+        <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
+        <a href ="Games/SpaceShooter/index.html">
+        <button type="game1" class="playnow">Play now!</button>
+        </a>
+    </div>
+    </div>
+--->
+
+</html>

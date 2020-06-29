@@ -12,44 +12,70 @@
             background-color: rgb(56, 56, 56);
         }
 
+
         .div {
             letter-spacing: 2px;
             position: absolute;
             right: 150px;
         }
 
-        .center {
+
+        .description {
+            background-color: #bf631f;
             color: white;
-            font-size:30px; 
-            position: absolute;
-            top: 50%;left: 50%;
-            font-weight: bold;
-            letter-spacing: 2px;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            padding: 12px 28px;
         }
 
+        .move {
+            margin-top: 1cm;
+        }
+
+        .playnow {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            margin-top: 1cm;
+            padding: 16px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #924c1a;
+        }
+
+        .content {
+            padding: 0 16px;
+            display: none;
+            overflow: hidden;
+            background-color: rgb(203, 198, 136, 0.2);
+        }
     </style>
 </head>
 
 <body>
     <div class="w3-bar w3-white w3-padding w3-card">
         <a href="index.html" class="w3-bar-item w3-button">Home</a>
-  
+
         <div class="w3-right w3-hide-small">
             <a href="about.html" class="w3-bar-item w3-button">About</a>
             <a href="programs.html" class="w3-bar-item w3-button">Programs</a>
             <a href="game.html" class="w3-bar-item w3-button">Games</a>
-            <a href = "novels.html" class ="w3-bar-item w3-button">Novel</a>
+            <a href="novels.html" class="w3-bar-item w3-button">Novel</a>
             <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
             <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 
-        </div>    
-    <div class="center">
-        Welcome!
+        </div>
     </div>
-</div>
-
 </body>
 
 
 
-</html>   
+
+</html>

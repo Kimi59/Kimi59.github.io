@@ -18,10 +18,7 @@
             right: 150px;
         }
 
-        para{
-            margin-top: 1cm;
-            display:none; 
-        }
+
         .description {
             background-color: #bf631f;
             color: white;
@@ -33,6 +30,14 @@
             padding: 12px 28px;
         }
 
+        .move {
+            margin-top: 1cm;
+        }
+
+        .paragraph{
+        color:#b7b9a1
+        }
+        
         .playnow {
             background-color: green;
             color: white;
@@ -63,28 +68,31 @@
 
         <div class="w3-right w3-hide-small">
             <a href="about.html" class="w3-bar-item w3-button">About</a>
-            <a href="games.html" class="w3-bar-item w3-button">Games</a>
+            <a href="programs.html" class="w3-bar-item w3-button">Programs</a>
+            <a href="game.html" class="w3-bar-item w3-button">Games</a>
+            <a href="novels.html" class="w3-bar-item w3-button">Novel</a>
+            <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
             <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
         </div>
     </div>
 
-    <p class ="para">l</p>
-    <button type="button" class="description">Space Shooter</button>
-    <div class="content">
-        <p>A basic top-down space shooter game</p>
-        <p>Preview:</p>
-        <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
-        <a href="Games/SpaceShooter/index.html">
-            <button type="game1" class="playnow">Play now!</button>
-        </a>
+    <div class="move">
+        <button type="button" class="description">Space Shooter</button>
+        <div class="content">
+            <p class = "paragraph">A basic top-down space shooter game (First Game)</p>
+            <p class = "paragraph">>Preview:</p>
+            <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
+            <a href="Games/SpaceShooter/index.html">
+                <button type="game1" class="playnow">Play now!</button>
+            </a>
+        </div>
     </div>
     </div>
-
     <button type="button" class="description">LD Game Jam</button>
     <div class="content">
-        <p>LD Game Jam 2020</p>
-        <p>Preview:</p>
-        <img src="Games/photo/LDJam.png" alt=" alt ="LD Game Jam" width="300" height="200"></img>
+        <p class = "paragraph">LD Game Jam (Second Game)</p>
+        <p class = "paragraph">Preview:</p>
+        <img src="Games/photo/LDJam.png" alt="LD Game Jam" width="300" height="200"></img>
         <a href="Games/LDJam/index.html">
             <button type="game1" class="playnow">Play now!</button>
         </a>
