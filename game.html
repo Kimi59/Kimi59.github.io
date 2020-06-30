@@ -28,16 +28,19 @@
             text-align: left;
             outline: none;
             padding: 12px 28px;
+            font-size: 18px;
+            transition: 0.2s; 
+            opacity:1;
         }
 
         .move {
             margin-top: 1cm;
         }
 
-        .paragraph{
-        color:#b7b9a1
+        .paragraph {
+            color: #b7b9a1
         }
-        
+
         .playnow {
             background-color: green;
             color: white;
@@ -46,11 +49,18 @@
             font-size: 18px;
             margin-top: 1cm;
             padding: 16px;
+            transition: 0.3; 
+            opacity:1;
         }
 
+        .playnow:hover{
+            font-size:24px;
+            opacity:0.65; 
+        }
         .active,
         .collapsible:hover {
             background-color: #924c1a;
+            opacity:0.75;
         }
 
         .content {
@@ -58,6 +68,7 @@
             display: none;
             overflow: hidden;
             background-color: rgb(203, 198, 136, 0.2);
+            transition-delay: 50s;
         }
     </style>
 </head>
@@ -79,8 +90,8 @@
     <div class="move">
         <button type="button" class="description">Space Shooter</button>
         <div class="content">
-            <p class = "paragraph">A basic top-down space shooter game (First Game)</p>
-            <p class = "paragraph">>Preview:</p>
+            <p class="paragraph">A basic top-down space shooter game (First Game)</p>
+            <p class="paragraph">Preview:</p>
             <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
             <a href="Games/SpaceShooter/index.html">
                 <button type="game1" class="playnow">Play now!</button>
@@ -90,8 +101,8 @@
     </div>
     <button type="button" class="description">LD Game Jam</button>
     <div class="content">
-        <p class = "paragraph">LD Game Jam (Second Game)</p>
-        <p class = "paragraph">Preview:</p>
+        <p class="paragraph">LD Game Jam (Second Game)</p>
+        <p class="paragraph">Preview:</p>
         <img src="Games/photo/LDJam.png" alt="LD Game Jam" width="300" height="200"></img>
         <a href="Games/LDJam/index.html">
             <button type="game1" class="playnow">Play now!</button>
