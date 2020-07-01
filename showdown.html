@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<title>KimDev</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            background-color: rgb(56, 56, 56);
+        }
+
+        .div {
+            letter-spacing: 2px;
+            position: absolute;
+            right: 150px;
+        }
+
+        para {
+            margin-top: 1cm;
+            display: none;
+        }
+
+        .description {
+            background-color: #bf631f;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            padding: 12px 28px;
+        }
+
+        .description:hover {
+            background-color: #994e18;
+        }
+
+        .playnow {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            margin-top: 1cm;
+            padding: 16px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #924c1a;
+        }
+
+        .content {
+            padding: 0 16px;
+            display: none;
+            overflow: hidden;
+            background-color: rgb(203, 198, 136, 0.2);
+        }
+
+        .move {
+            margin-top: 1cm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-bar w3-white w3-padding w3-card">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+
+        <div class="w3-right w3-hide-small">
+            <a href="programs.html" class="w3-bar-item w3-button">Programs</a>
+            <a href="novel.html" class="w3-bar-item w3-button">Novel</a>
+            <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
+            <a href="showdown.html" class="w3-bar-item w3-button">Pokemon Replays</a>
+        </div>
+    </div>
+
+    <div class="w3-animate-zoom">
+        <div class="move">
+            <a href="showdown/[6-0]Gen7OU-2020-06-25-opbidoof6969-vitorbrabor.html">
+                <button type="button" class="description">Gen 7 OU - 6-0</button>
+            </a>
+            <a href="showdown/[6-0]Gen7OU-2020-06-28-dljwenelfjn-opbidoof6969.html">
+                <button type="button" class="description">Gen 7 OU - 6-0</button>
+            </a>
+            <a href="showdown/[AlakazamFun]Gen7OU-2020-04-13-opbidoof6969-dddhufhdjo.html">
+                <button type="button" class="description">Gen 7 OU - Alakazam Abuse</button>
+            </a>
+            <a href="showdown/[Close]Gen7OU-2020-04-07-vador05-opbidoof6969.html">
+                <button type="button" class="description">Gen 7 OU - Close Battle</button>
+            </a>
+            <a href="showdown/[Close]Gen7OU-2020-05-17-mawvillman-opbidoof6969.html">
+                <button type="button" class="description">Gen 7 OU - Close Battle 2</button>
+            </a>
+            <a href="showdown/[good]Gen7OU-2020-06-25-opbidoof6969-tzamasourouna.html">
+                <button type="button" class="description">Gen 7 OU - Close Battle 3</button>
+            </a>
+            <a href="showdown/[comeback]Gen7OU-2020-06-27-opbidoof6969-sseibolai.html">
+                <button type="button" class="description">Gen 7 OU - Comeback Squad</button>
+            </a>
+            <a href="showdown/[Good use of team]Gen7OU-2020-06-26-fandmm-opbidoof6969.html">
+                <button type="button" class="description">Gen 7 OU - Good use of team</button>
+            </a>
+            <a href="showdown/[Salty]Gen7OU-2020-04-25-opbidoof6969-mikerutime.html">
+                <button type="button" class="description">Gen 7 OU - Salty Battler</button>
+            </a>
+            <a href="showdown/[Trash talker]Gen7OU-2020-05-26-opbidoof6969-darkelucidator007.html">
+                <button type="button" class="description">Gen 7 OU - Salty Battler 2 </button>
+            </a>
+            <a href="showdown/[StallTRoll]Gen7OU-2020-04-22-lanauwu-opbidoof6969.html">
+                <button type="button" class="description">Gen 7 OU - Stall</button>
+            </a>
+            <a href="showdown/[6-0]Gen7DoublesOU-2020-05-29-greengrey7777-ian0409.html">
+                <button type="button" class="description">Gen 7 Doubles OU - 6-0 </button>
+            </a>
+            <a href="showdown/[6-0]Gen7DoublesOU-2020-06-02-lewafflebleu-ian2129.html">
+                <button type="button" class="description">Gen 7 Doubles OU - 6-0 </button>
+            </a>
+            <a href="showdown/[6-0]Gen7DoublesOU-2020-06-02-signiordango-ian2129.html">
+                <button type="button" class="description">Gen 7 Doubles OU - 6-0 </button>
+            </a>
+            <a href="showdown/[6-0]Gen7DoublesOU-2020-06-06-polarot-opbidoof6969.html">
+                <button type="button" class="description">Gen 7 Doubles OU - 6-0 </button>
+            </a>
+            <a href="showdown/[AnnoyingRainRoom]Gen7DoublesOU-2020-06-08-opbidoof6969-volodia.html">
+                <button type="button" class="description">Gen 7 Doubles OU - Annoying Rain-Room </button>
+            </a>
+            <a href="showdown/[MOST INTENSE GAME]Gen7DoublesOU-2020-05-31-ian0409-deathded.html">
+                <button type="button" class="description">Gen 7 Doubles OU - Most Intense Game </button>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        var desc = document.getElementsByClassName("description");
+        var i;
+
+        for (i = 0; i < desc.length; i++) {
+            desc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

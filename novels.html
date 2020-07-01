@@ -17,7 +17,7 @@
             position: absolute;
             right: 150px;
         }
-    
+
         .description {
             background-color: #bf631f;
             color: white;
@@ -27,17 +27,21 @@
             text-align: left;
             outline: none;
             padding: 12px 28px;
-            font-size: 18px; 
+            font-size: 18px;
             transition: 0.2s;
             opacity: 1;
         }
 
+        .description:hover{
+            background-color: #994e18;
+        }
+        
         .move {
             margin-top: 1cm;
         }
 
-        .paragraph{
-        color:#b7b9a1
+        .paragraph {
+            color: #b7b9a1
         }
 
         .playnow {
@@ -49,7 +53,7 @@
             margin-top: 1cm;
             padding: 16px;
         }
-        
+
         .playnow:hover {
             font-size: 24px;
             opacity: 0.65;
@@ -74,32 +78,32 @@
         <a href="index.html" class="w3-bar-item w3-button">Home</a>
 
         <div class="w3-right w3-hide-small">
-            <a href="about.html" class="w3-bar-item w3-button">About</a>
             <a href="programs.html" class="w3-bar-item w3-button">Programs</a>
             <a href="game.html" class="w3-bar-item w3-button">Games</a>
             <a href="novels.html" class="w3-bar-item w3-button">Novel</a>
             <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
-            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="showdown.html" class="w3-bar-item w3-button">Pokemon Replays</a>
         </div>
     </div>
 
-    <div class="move">
-        <button type="button" class="description">Path of Love</button>
-        <div class="content">
-            <p class = "paragraph">Write a description of the book here</p>
+    <div class="w3-animate-zoom">
+        <div class="move">
+            <button type="button" class="description">Path of Love</button>
+            <div class="content">
+                <p class="paragraph">Write a description of the book here</p>
 
-            <!--change this here to book cover <img src>
+                <!--change this here to book cover <img src>
             change a href to the book html 
             change button to "Read Now"
         -->
-            <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
-            <a href="Games/SpaceShooter/index.html">
-                <button type="game1" class="playnow">Read now!</button>
-            </a>
+                <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
+                <a href="Games/SpaceShooter/index.html">
+                    <button type="game1" class="playnow">Read now!</button>
+                </a>
+            </div>
         </div>
     </div>
-    </div>
-
+</div>
     <!-- Copy and paste and rename stuff
        <button type="button" class="description">LD Game Jam</button>
     <div class="content">

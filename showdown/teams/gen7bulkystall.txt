@@ -1,0 +1,58 @@
+Landorus-Therian @ Rocky Helmet  
+Ability: Intimidate  
+EVs: 252 HP / 112 Def / 144 Spe  
+Impish Nature  
+- Defog  
+- Earthquake  
+- Hidden Power [Ice]  
+- U-turn  
+
+Greninja @ Waterium Z  
+Ability: Protean  
+EVs: 4 Atk / 252 SpA / 252 Spe  
+Hasty Nature  
+IVs: 0 Atk  
+- Dark Pulse  
+- Ice Beam  
+- Haze  
+- Scald  
+
+Tapu Koko @ Aguav Berry  
+Ability: Electric Surge  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Wild Charge  
+- Brave Bird  
+- U-turn  
+- Roost  
+
+Ferrothorn @ Leftovers  
+Ability: Iron Barbs  
+EVs: 252 HP / 24 Def / 232 SpD  
+Sassy Nature  
+IVs: 0 Spe  
+- Leech Seed  
+- Gyro Ball  
+- Stealth Rock  
+- Power Whip  
+
+Latias @ Latiasite  
+Ability: Levitate  
+EVs: 252 HP / 4 Def / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Roost  
+- Psyshock  
+- Ice Beam  
+
+Heatran @ Assault Vest  
+Ability: Flash Fire  
+EVs: 252 HP / 176 SpD / 80 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Lava Plume  
+- Dark Pulse  
+- Flash Cannon  
+- Earth Power  
+

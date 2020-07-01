@@ -1,0 +1,56 @@
+Swampert-Mega @ Swampertite  
+Ability: Swift Swim  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Adamant Nature  
+- Waterfall  
+- Earthquake  
+- Superpower  
+- Protect  
+
+Pelipper @ Damp Rock  
+Ability: Drizzle  
+EVs: 152 HP / 4 Def / 84 SpA / 120 SpD / 148 Spe  
+Modest Nature  
+- Hydro Pump  
+- Hurricane  
+- Tailwind  
+- U-turn  
+
+Gothitelle @ Wiki Berry  
+Ability: Shadow Tag  
+EVs: 248 HP / 156 Def / 96 SpD / 8 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Psychic  
+- Taunt  
+- Helping Hand  
+- Protect  
+
+Tapu Koko @ Choice Specs  
+Ability: Electric Surge  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+IVs: 0 Atk  
+- Thunder  
+- Volt Switch  
+- Hidden Power [Fire]  
+- Dazzling Gleam  
+
+Kyurem-Black @ Icium Z  
+Ability: Teravolt  
+EVs: 204 Atk / 52 SpA / 252 Spe  
+Hasty Nature  
+- Freeze Shock  
+- Fusion Bolt  
+- Ice Beam  
+- Protect  
+
+Ludicolo @ Assault Vest  
+Ability: Swift Swim  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Modest Nature  
+- Fake Out  
+- Hydro Pump  
+- Ice Beam  
+- Energy Ball  
+

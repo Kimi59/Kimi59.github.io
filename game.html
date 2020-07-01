@@ -33,6 +33,10 @@
             opacity: 1;
         }
 
+        .description:hover{
+            background-color: #994e18;
+        }
+        
         .move {
             margin-top: 1cm;
         }
@@ -71,7 +75,6 @@
             background-color: rgb(203, 198, 136, 0.2);
             transition: 0.3s;
         }
-
     </style>
 </head>
 
@@ -80,38 +83,41 @@
         <a href="index.html" class="w3-bar-item w3-button">Home</a>
 
         <div class="w3-right w3-hide-small">
-            <a href="about.html" class="w3-bar-item w3-button">About</a>
             <a href="programs.html" class="w3-bar-item w3-button">Programs</a>
             <a href="game.html" class="w3-bar-item w3-button">Games</a>
             <a href="novels.html" class="w3-bar-item w3-button">Novel</a>
             <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
-            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="showdown.html" class="w3-bar-item w3-button">Pokemon Replays</a>
         </div>
     </div>
 
     <div class="move">
-        <button type="button" class="description">Space Shooter</button>
+        <div class="w3-animate-zoom">
+            <button type="button" class="description">Space Shooter</button>
+            <div class="content">
+                <p class="paragraph">A basic top-down space shooter game (First Game)</p>
+                <p class="paragraph">Preview:</p>
+                <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
+                <a href="Games/SpaceShooter/index.html">
+                    <button type="game1" class="playnow">Play now!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="w3-animate-zoom">
+        <button type="button" class="description">LD Game Jam</button>
         <div class="content">
-            <p class="paragraph">A basic top-down space shooter game (First Game)</p>
+            <p class="paragraph">LD Game Jam (Second Game)</p>
             <p class="paragraph">Preview:</p>
-            <img src="Games/photo/spaceshooter.png" alt="Space Shooter photo" width="300" height="200"></img>
-            <a href="Games/SpaceShooter/index.html">
+            <img src="Games/photo/LDJam.png" alt="LD Game Jam" width="300" height="200"></img>
+            <a href="Games/LDJam/index.html">
                 <button type="game1" class="playnow">Play now!</button>
             </a>
         </div>
     </div>
     </div>
-    <button type="button" class="description">LD Game Jam</button>
-    <div class="content">
-        <p class="paragraph">LD Game Jam (Second Game)</p>
-        <p class="paragraph">Preview:</p>
-        <img src="Games/photo/LDJam.png" alt="LD Game Jam" width="300" height="200"></img>
-        <a href="Games/LDJam/index.html">
-            <button type="game1" class="playnow">Play now!</button>
-        </a>
-    </div>
-    </div>
-
     <script>
         var desc = document.getElementsByClassName("description");
         var i;

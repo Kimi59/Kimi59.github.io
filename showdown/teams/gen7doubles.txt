@@ -1,0 +1,57 @@
+Manectric @ Manectite  
+Ability: Lightning Rod  
+EVs: 132 HP / 124 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Volt Switch  
+- Overheat  
+- Snarl  
+- Protect  
+
+Incineroar @ Aguav Berry  
+Ability: Intimidate  
+EVs: 252 HP / 100 Def / 156 SpD  
+Sassy Nature  
+IVs: 0 Spe  
+- Flare Blitz  
+- U-turn  
+- Fake Out  
+- Knock Off  
+
+Tapu Fini @ Wiki Berry  
+Ability: Misty Surge  
+EVs: 252 HP / 40 Def / 168 SpA / 32 SpD / 16 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Muddy Water  
+- Moonblast  
+- Calm Mind  
+- Protect  
+
+Kartana @ Grassium Z  
+Ability: Beast Boost  
+EVs: 72 HP / 252 SpD / 184 Spe  
+Jolly Nature  
+- Leaf Blade  
+- Sacred Sword  
+- Substitute  
+- Protect  
+
+Zygarde @ Choice Band  
+Ability: Aura Break  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Thousand Arrows  
+- Thousand Waves  
+- Extreme Speed  
+- Superpower  
+
+Mew @ Mago Berry  
+Ability: Synchronize  
+EVs: 252 HP / 12 Def / 24 SpD / 220 Spe  
+Bold Nature  
+- U-turn  
+- Tailwind  
+- Stealth Rock  
+- Ice Beam  
+

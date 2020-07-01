@@ -1,0 +1,57 @@
+Marowak-Alola @ Thick Club  
+Ability: Lightning Rod  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Bonemerang  
+- Shadow Bone  
+- Fire Punch  
+- Thunder Punch  
+
+Kartana @ Choice Scarf  
+Ability: Beast Boost  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Sacred Sword  
+- Smart Strike  
+- Night Slash  
+- Leaf Blade  
+
+Alakazam-Mega @ Alakazite  
+Ability: Magic Guard  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Focus Blast  
+- Shadow Ball  
+- Hidden Power [Fire]  
+
+Keldeo-Resolute @ Assault Vest  
+Ability: Justified  
+EVs: 160 HP / 4 Atk / 252 SpA / 92 Spe  
+Hasty Nature  
+IVs: 1 Atk  
+- Scald  
+- Secret Sword  
+- Icy Wind  
+- Hidden Power [Electric]  
+
+Excadrill @ Assault Vest  
+Ability: Mold Breaker  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+- Brick Break  
+- Iron Head  
+- Earthquake  
+- Rock Slide  
+
+Zapdos @ Leftovers  
+Ability: Static  
+EVs: 248 HP / 240 Def / 20 Spe  
+Bold Nature  
+IVs: 0 Atk  
+- Discharge  
+- Roost  
+- Heat Wave  
+- Defog  
+
